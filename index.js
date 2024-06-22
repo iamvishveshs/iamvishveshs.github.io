@@ -36,3 +36,9 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+
+const copyrightYearSpan=document.getElementById("copyrightYear");
+const date= new Date();
+const year=date.getFullYear();
+copyrightYearSpan.innerHTML=year;
