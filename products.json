@@ -10,6 +10,16 @@
     "link": "https://amzn.to/4aNqX3m"
   },
   {
+    "id": "amz-002",
+    "platform": "Amazon",
+    "platformColor": "#FF9900",
+    "title": "Portronics Mport 30 Plus Card Reader",
+    "price": "₹400",
+    "mrp": "₹799",
+    "image": "https://m.media-amazon.com/images/I/61SsgxQEULL._SY450_.jpg",
+    "link": "https://amzn.to/4bgl5QD"
+  }/*,
+  {
     "id": "flp-002",
     "platform": "Flipkart",
     "platformColor": "#2874F0",
@@ -18,5 +28,5 @@
     "mrp": "₹34,990",
     "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/l/i/u/-original-imaghxgnjdgyghfw.jpeg",
     "link": "YOUR_FLIPKART_AFFILIATE_LINK"
-  }
+  }*/
 ]
