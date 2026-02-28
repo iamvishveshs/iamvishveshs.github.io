@@ -1,8 +1,28 @@
 [
   {
+    "id": "amz-004",
+    "platform": "Amazon",
+    "platformColor": "#3CB371",
+    "title": "Smart Multipurpose Foldable Laptop Table with Cup Holder, Study Table, Bed Table, Breakfast Table, Foldable and Portable/Ergonomic & Rounded Edges/Non-Slip Legs (Wood New)",
+    "price": "₹350",
+    "mrp": "₹999",
+    "image": "https://m.media-amazon.com/images/I/61vRS6yf5SL._SL1024_.jpg",
+    "link": "https://www.amazon.in/SPHENI-Multipurpose-Foldable-Breakfast-Ergonomic/dp/B0GDGNH2JF?th=1&linkCode=ll2&tag=iamvishveshs-21&linkId=404ab6af1e396f8ede54c78447fd1210&ref_=as_li_ss_tl"
+  },
+  {
+    "id": "amz-004",
+    "platform": "Amazon",
+    "platformColor": "#3CB371",
+    "title": "Portronics Luxcell B 10K 10000 mAh 22.5W Fast Charging Power Bank, Ultra Slim Power Bank with Mach USB-A Output, Type C PD Output, Type C Input, Wake Up Button(Green)",
+    "price": "₹929",
+    "mrp": "₹1,200",
+    "image": "https://m.media-amazon.com/images/I/41VeyTOBkOL._SY300_SX300_QL70_FMwebp_.jpg",
+    "link": "https://www.amazon.in/Portronics-Luxcell-Charging-Output-Button/dp/B0CQK537RQ?pd_rd_w=aJYIq&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=4QK7PDGF481VJG233P7D&pd_rd_wg=G417z&pd_rd_r=6d9bfb9d-a6e4-459f-b4c0-c325a0bffd41&pd_rd_i=B0CQK537RQ&th=1&linkCode=ll2&tag=iamvishveshs-21&linkId=fada909c1ae7ade6f1fff941f0e834b3&ref_=as_li_ss_tl"
+  },
+  {
     "id": "amz-003",
     "platform": "Amazon",
-    "platformColor": "",
+    "platformColor": "#3CB371",
     "title": "SanDisk Ultra Dual Drive Luxe USB_c Type-C 128GB, OTG, Upto 400MB/S, Pendrive, Silver, 5Y Warranty (SDDDC4-128G-I35)",
     "price": "₹2,100",
     "mrp": "₹3,000",
