@@ -1,5 +1,15 @@
 [
   {
+    "id": "amz-0001",
+    "platform": "Amazon",
+    "platformColor": "#c20862",
+    "title": "ASUS Vivobook S16,Intel Core Ultra 5 225H,AI PC(Intel Arc iGPU/16GB RAM/512GB SSD/FHD/16/60Hz/Backlit Keyboard/70Whr/Windows 11/M365 Basic(1Year)*/Office Home 2024/Cool Silver/1.7 Kg) S3607CA-SH071WS",
+    "price": "₹79,999",
+    "mrp": "₹1,09,000",
+    "image": "https://m.media-amazon.com/images/I/41h-AxB6gSL._SY300_SX300_QL70_FMwebp_.jpg",
+    "link": "https://amzn.to/4aYh573"
+  },
+  {
     "id": "amz-008",
     "platform": "Amazon",
     "platformColor": "#067518",
