@@ -1,1 +1,45 @@
-
+{
+  "app": {
+    "name": "TheVSHub.in",
+    "version": "1.0.0",
+    "theme": {
+      "primaryColor": "#38BDF8",
+      "backgroundColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#10b981"
+    }
+  },
+  "features": {
+    "comments": {
+      "enabled": true,
+      "maxPerPage": 20
+    },
+    "offlineReading": {
+      "enabled": true,
+      "maxCachedPosts": 50
+    },
+    "notifications": {
+      "enabled": false,
+      "newPostsAlert": false
+    },
+    "analytics": {
+      "enabled": true
+    },
+    "newsletter": {
+      "enabled": true,
+      "url": "https://api.follow.it/subscription-form/YOUR_FORM_ID"
+    }
+  },
+  "api": {
+    "blogger": {
+      "apiKey": "AIzaSyCs7BXrLjpGCSLX1Jpd7O0_xFfdKWE1Wlo",
+      "blogId": "2220365021580988964",
+      "maxResults": 50
+    }
+  },
+  "ui": {
+    "enableAnimations": true,
+    "skeletonLoadingEnabled": true,
+    "errorRetryAttempts": 3
+  }
+}
