@@ -1,1 +1,42 @@
-
+[
+  {
+    "name": "Elite Programmer Workstation Kit",
+    "tagline": "Premium 49\" curved display and workstation lighting systems.",
+    "description": "SPONSORED: Supercharge your software engineering lifecycle with low blue light certification and optimized workstation mechanics. Curated for readers of the Digital Journal. Use workspace coupon code 'VSHUB20' for 20% off during checkout.",
+    "category": "Sponsored Banner",
+    "iconUrl": "https://img.icons8.com/color/96/monitor--v1.png",
+    "actionUrl": "https://github.com/iamvishveshs",
+    "status": "Promo Active",
+    "badge": "20% OFF"
+  },
+  {
+    "name": "WishKaro AI Greeting Suite",
+    "tagline": "Generate beautiful celebration vector layouts and visual greetings dynamically.",
+    "description": "AFFILIATE: Tap into deep generative template pipelines designed directly inside the Kotlin ecosystem. Create, customize and share vector card art on social threads or instant newsletters instantly.",
+    "category": "Affiliate Product",
+    "iconUrl": "https://img.icons8.com/color/96/artificial-intelligence.png",
+    "actionUrl": "https://github.com/iamvishveshs",
+    "status": "Launched",
+    "badge": "Featured"
+  },
+  {
+    "name": "Mechanical Coding Keyboards",
+    "tagline": "Discover tactical tactile response key caps optimized for rapid programming loops.",
+    "description": "SPONSORED: An exclusive partner deal on ergonomic silent tactile switchboards designed specifically to curtail carpal-tunnel fatigue during prolonged debugging sequences.",
+    "category": "Sponsored Banner",
+    "iconUrl": "https://img.icons8.com/color/96/keyboard.png",
+    "actionUrl": "https://github.com/iamvishveshs",
+    "status": "Hot Deal",
+    "badge": "Limited Offer"
+  },
+  {
+    "name": "Thevshub Dynamic Tech Store",
+    "tagline": "Live gadget price comparison index and analytical review aggregators.",
+    "description": "AFFILIATE: A smart metadata comparator checking pricing variances across leading hardware vendors from the US, EU, and Asia, accompanied by verified reviews written by expert tech stack evaluators.",
+    "category": "Affiliate Product",
+    "iconUrl": "https://img.icons8.com/color/96/shopping-bag.png",
+    "actionUrl": "https://github.com/iamvishveshs",
+    "status": "Beta",
+    "badge": "New"
+  }
+]
