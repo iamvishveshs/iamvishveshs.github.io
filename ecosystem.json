@@ -1,42 +1,123 @@
 [
+ 
   {
-    "name": "Elite Programmer Workstation Kit",
-    "tagline": "Premium 49\" curved display and workstation lighting systems.",
-    "description": "SPONSORED: Supercharge your software engineering lifecycle with low blue light certification and optimized workstation mechanics. Curated for readers of the Digital Journal. Use workspace coupon code 'VSHUB20' for 20% off during checkout.",
-    "category": "Sponsored Banner",
-    "iconUrl": "https://img.icons8.com/color/96/monitor--v1.png",
-    "actionUrl": "https://github.com/iamvishveshs",
-    "status": "Promo Active",
-    "badge": "20% OFF"
+    "name": "VerSyncs",
+    "tagline": "Real-time collaborative workspace for creative teams.",
+    "description": "PROJECT: A real-time collaborative workspace tailored for creative teams to sync and build seamlessly.",
+    "category": "Project",
+    "iconUrl": "https://res.cloudinary.com/dyugqb02n/image/upload/v1774803188/favicon_1_m2w83q.png",
+    "actionUrl": "https://versyncs.thevshub.in",
+    "status": "Live",
+    "badge": "Active"
   },
   {
-    "name": "WishKaro AI Greeting Suite",
-    "tagline": "Generate beautiful celebration vector layouts and visual greetings dynamically.",
-    "description": "AFFILIATE: Tap into deep generative template pipelines designed directly inside the Kotlin ecosystem. Create, customize and share vector card art on social threads or instant newsletters instantly.",
+    "name": "WishKaro App",
+    "tagline": "Festival wishing made easy.",
+    "description": "PROJECT: A dedicated application that makes festival wishing and greeting generation easy.",
+    "category": "App",
+    "iconUrl": "https://wishkaro.pages.dev/wishkaro-studio.png",
+    "actionUrl": "https://wishkaro.thevshub.in",
+    "status": "Live",
+    "badge": "Active"
+  },
+  {
+    "name": "ThevsHub Templates",
+    "tagline": "High quality Templates.",
+    "description": "PROJECT: A repository of high-quality templates for various use cases.",
+    "category": "Resource",
+    "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivDeKKVdHQOuVxM6HcDl4ADsMdNZutd7LZYcOMDNNE7xjU96eP7p3wh3e8r7xfnaE5L1NUbG0lEpCOJ1ZG27_H1SCcRCMPmwOBFFzc-HaJCkLda00SSb-vT7iFsKbX5Xw1ARlFR8cwZlNYhaS5MQwML_zrgN0WKLIj3JaPdmZVIuxixP8eup4IXeohGrw/s320/thevshub-icon.png",
+    "actionUrl": "https://templates.thevshub.in",
+    "status": "Live",
+    "badge": "Active"
+  },
+  {
+    "name": "ASUS Vivobook S16,Intel Core Ultra 7 255H,AI PC(Intel Arc iGPU/16GB RAM/512GB SSD/FHD/16/60Hz/Backlit Keyboard/70Whr/Windows 11/M365 Basic(1Year)*/Office Home 2024/Cool Silver/1.7 Kg) S3607CA-SH077WS",
+    "tagline": "Current Price: ₹90,990 | MRP: ₹1,21,990",
+    "description": "AFFILIATE: Available on Amazon. High-performance ASUS Vivobook S16 featuring Intel Core Ultra 7 and AI PC capabilities.",
     "category": "Affiliate Product",
-    "iconUrl": "https://img.icons8.com/color/96/artificial-intelligence.png",
-    "actionUrl": "https://github.com/iamvishveshs",
-    "status": "Launched",
-    "badge": "Featured"
+    "iconUrl": "https://m.media-amazon.com/images/I/41QijKMPzqL._SY300_SX300_QL70_FMwebp_.jpg",
+    "actionUrl": "https://amzn.to/4rKdKQb",
+    "status": "Available",
+    "badge": "Sale"
   },
   {
-    "name": "Mechanical Coding Keyboards",
-    "tagline": "Discover tactical tactile response key caps optimized for rapid programming loops.",
-    "description": "SPONSORED: An exclusive partner deal on ergonomic silent tactile switchboards designed specifically to curtail carpal-tunnel fatigue during prolonged debugging sequences.",
-    "category": "Sponsored Banner",
-    "iconUrl": "https://img.icons8.com/color/96/keyboard.png",
-    "actionUrl": "https://github.com/iamvishveshs",
-    "status": "Hot Deal",
-    "badge": "Limited Offer"
-  },
-  {
-    "name": "Thevshub Dynamic Tech Store",
-    "tagline": "Live gadget price comparison index and analytical review aggregators.",
-    "description": "AFFILIATE: A smart metadata comparator checking pricing variances across leading hardware vendors from the US, EU, and Asia, accompanied by verified reviews written by expert tech stack evaluators.",
+    "name": "ASUS Vivobook S16,Intel Core Ultra 5 225H,AI PC(Intel Arc iGPU/16GB RAM/512GB SSD/FHD/16/60Hz/Backlit Keyboard/70Whr/Windows 11/M365 Basic(1Year)*/Office Home 2024/Cool Silver/1.7 Kg) S3607CA-SH071WS",
+    "tagline": "Current Price: ₹79,999 | MRP: ₹1,09,000",
+    "description": "AFFILIATE: Available on Amazon. ASUS Vivobook S16 powered by Intel Core Ultra 5, featuring Intel Arc iGPU and 16GB RAM.",
     "category": "Affiliate Product",
-    "iconUrl": "https://img.icons8.com/color/96/shopping-bag.png",
-    "actionUrl": "https://github.com/iamvishveshs",
-    "status": "Beta",
-    "badge": "New"
+    "iconUrl": "https://m.media-amazon.com/images/I/41h-AxB6gSL._SY300_SX300_QL70_FMwebp_.jpg",
+    "actionUrl": "https://amzn.to/4aYh573",
+    "status": "Available",
+    "badge": "Sale"
+  },
+  {
+    "name": "Ambrane Universal Travel Socket, International All in One Worldwide Travel Adapter Socket with 2500W High Power Output with 9 Hole Universal Socket, Compatible in 150+ Countries (ATA-03, Black)",
+    "tagline": "Current Price: ₹800 | MRP: ₹1,499",
+    "description": "AFFILIATE: Available on Amazon. Ambrane Universal Travel Socket compatible in 150+ countries with 2500W high power output.",
+    "category": "Affiliate Product",
+    "iconUrl": "https://m.media-amazon.com/images/I/419Pr8byIxL._SY300_SX300_QL70_FMwebp_.jpg",
+    "actionUrl": "https://amzn.to/4cWB3S9",
+    "status": "Available",
+    "badge": "Discount"
+  },
+  {
+    "name": "FUR JADEN Anti Theft Number Lock Backpack Bag with 15.6 Inch Laptop Compartment, USB Charging Port & Organizer Pocket for Men Women Boys Girls",
+    "tagline": "Current Price: ₹600 | MRP: ₹1,999",
+    "description": "AFFILIATE: Available on Amazon. Anti-theft backpack by FUR JADEN with number lock, USB charging port, and 15.6-inch laptop compartment.",
+    "category": "Affiliate Product",
+    "iconUrl": "https://m.media-amazon.com/images/I/31fAITaT6rL._SX342_SY445_QL70_FMwebp_.jpg",
+    "actionUrl": "https://www.amazon.in/Number-Backpack-Compartment-Charging-Organizer/dp/B09VTDMRY7?th=1&linkCode=ll2&tag=iamvishveshs-21&linkId=9f68f33e12eca885b2433b48f513854b&ref_=as_li_ss_tl",
+    "status": "Available",
+    "badge": "Sale"
+  },
+  {
+    "name": "Smart Multipurpose Foldable Laptop Table with Cup Holder, Study Table, Bed Table, Breakfast Table, Foldable and Portable/Ergonomic & Rounded Edges/Non-Slip Legs (Wood New)",
+    "tagline": "Current Price: ₹350 | MRP: ₹999",
+    "description": "AFFILIATE: Available on Amazon. Multipurpose foldable laptop table featuring ergonomic rounded edges, cup holder, and non-slip legs.",
+    "category": "Affiliate Product",
+    "iconUrl": "https://m.media-amazon.com/images/I/61vRS6yf5SL._SL1024_.jpg",
+    "actionUrl": "https://www.amazon.in/SPHENI-Multipurpose-Foldable-Breakfast-Ergonomic/dp/B0GDGNH2JF?th=1&linkCode=ll2&tag=iamvishveshs-21&linkId=404ab6af1e396f8ede54c78447fd1210&ref_=as_li_ss_tl",
+    "status": "Available",
+    "badge": "Discount"
+  },
+  {
+    "name": "Portronics Luxcell B 10K 10000 mAh 22.5W Fast Charging Power Bank, Ultra Slim Power Bank with Mach USB-A Output, Type C PD Output, Type C Input, Wake Up Button(Green)",
+    "tagline": "Current Price: ₹929 | MRP: ₹1,200",
+    "description": "AFFILIATE: Available on Amazon. Portronics Luxcell 10000 mAh fast charging ultra-slim power bank with Type C PD output.",
+    "category": "Affiliate Product",
+    "iconUrl": "https://m.media-amazon.com/images/I/41VeyTOBkOL._SY300_SX300_QL70_FMwebp_.jpg",
+    "actionUrl": "https://www.amazon.in/Portronics-Luxcell-Charging-Output-Button/dp/B0CQK537RQ?pd_rd_w=aJYIq&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=4QK7PDGF481VJG233P7D&pd_rd_wg=G417z&pd_rd_r=6d9bfb9d-a6e4-459f-b4c0-c325a0bffd41&pd_rd_i=B0CQK537RQ&th=1&linkCode=ll2&tag=iamvishveshs-21&linkId=fada909c1ae7ade6f1fff941f0e834b3&ref_=as_li_ss_tl",
+    "status": "Available",
+    "badge": "Sale"
+  },
+  {
+    "name": "SanDisk Ultra Dual Drive Luxe USB_c Type-C 128GB, OTG, Upto 400MB/S, Pendrive, Silver, 5Y Warranty (SDDDC4-128G-I35)",
+    "tagline": "Current Price: ₹2,100 | MRP: ₹3,000",
+    "description": "AFFILIATE: Available on Amazon. SanDisk Ultra Dual Drive Luxe 128GB Type-C Pendrive with up to 400MB/s transfer speed.",
+    "category": "Affiliate Product",
+    "iconUrl": "https://m.media-amazon.com/images/I/71-GmDXz7xL._SL1500_.jpg",
+    "actionUrl": "https://www.amazon.in/SanDisk-Type-C-Pendrive-Warranty-SDDDC4-128G-I35/dp/B084PJSSQ1?th=1&linkCode=ll2&tag=iamvishveshs-21&linkId=4c4cd15c6544899b533d326bbeb17f12&ref_=as_li_ss_tl",
+    "status": "Available",
+    "badge": "Sale"
+  },
+  {
+    "name": "Seagate One Touch 1TB External SSD",
+    "tagline": "Current Price: ₹14,000 | MRP: ₹18,999",
+    "description": "AFFILIATE: Available on Amazon. Seagate One Touch 1TB External SSD for fast and portable storage solutions.",
+    "category": "Affiliate Product",
+    "iconUrl": "https://m.media-amazon.com/images/I/71eBuhkDs0L._SX679_.jpg",
+    "actionUrl": "https://amzn.to/4aNqX3m",
+    "status": "Available",
+    "badge": "Discount"
+  },
+  {
+    "name": "Portronics Mport 30 Plus Card Reader",
+    "tagline": "Current Price: ₹400 | MRP: ₹799",
+    "description": "AFFILIATE: Available on Amazon. Portronics Mport 30 Plus versatile card reader for external media management.",
+    "category": "Affiliate Product",
+    "iconUrl": "https://m.media-amazon.com/images/I/61SsgxQEULL._SY450_.jpg",
+    "actionUrl": "https://amzn.to/4bgl5QD",
+    "status": "Available",
+    "badge": "Sale"
   }
 ]
