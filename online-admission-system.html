@@ -4,32 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Online Admission System</title>
-    <meta name="description" content="Case study page of Project" />
+    <title>Case Study of Online Admission System | Vishvesh Shivam</title>
+    <meta name="description" content="Case study page of Online Admission System website" />
 
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
+
+    <!-- Navigation Header -->
     <header class="header">
       <div class="header__content">
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
               src="./assets/png/vishvesh-transparent.png"
-              alt="Vishvesh shivam Logo Image"
+              alt="Vishvesh Shivam Logo"
               class="header__logo-img"
             />
           </div>
           <span class="header__logo-sub">Vishvesh Shivam</span>
         </div>
-        <div class="header__main">
+        <nav class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
               <a href="./index.html" class="header__link"> Home </a>
@@ -38,9 +37,7 @@
               <a href="./index.html#about" class="header__link">About </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
+              <a href="./index.html#projects" class="header__link header__link--active"> Projects </a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#contact" class="header__link"> Contact </a>
@@ -58,7 +55,7 @@
               class="header__main-ham-menu-close d-none"
             />
           </div>
-        </div>
+        </nav>
       </div>
       <div class="header__sm-menu">
         <div class="header__sm-menu-content">
@@ -66,15 +63,12 @@
             <li class="header__sm-menu-link">
               <a href="./index.html"> Home </a>
             </li>
-
             <li class="header__sm-menu-link">
               <a href="./index.html#about"> About </a>
             </li>
-
             <li class="header__sm-menu-link">
               <a href="./index.html#projects"> Projects </a>
             </li>
-
             <li class="header__sm-menu-link">
               <a href="./index.html#contact"> Contact </a>
             </li>
@@ -82,85 +76,79 @@
         </div>
       </div>
     </header>
+
+    <!-- Glowing Grid Background -->
+    <div class="grid-bg"></div>
+    <div class="spotlight"></div>
+
+    <!-- Case Study Hero -->
     <section class="project-cs-hero">
-      <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Online Admission System</h1>
-        <div class="project-cs-hero__info">
-          <p class="text-primary">
-            This page contains the case study of
-            <strong>Online Admission System</strong> Website which includes
-            the Project Overview, Tools Used and Live Links to the official
-            product.
-          </p>
-        </div>
-        <div class="project-cs-hero__cta">
-          <a
-            href="https://github.com/iamvishveshs/online-admission-system.git"
-            class="btn btn--bg"
-            target="_blank"
-            >Project Files</a
-          >
+      <div class="main-container">
+        <div class="project-cs-hero__content">
+          <span class="mono-label">// case study</span>
+          <h1 class="heading-primary">Online Admission System</h1>
+          <div class="project-cs-hero__info">
+            <p class="text-primary">
+              This page contains the case study of the <strong>Online Admission System</strong> website which includes the Project Overview, Tools Used, and Live Links to the official product.
+            </p>
+          </div>
+          <div class="project-cs-hero__cta">
+            <a
+              href="https://github.com/iamvishveshs/online-admission-system.git"
+              class="btn btn--bg btn--theme-inv"
+              target="_blank"
+              >Project Codebase</a
+            >
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- Case Study Details -->
     <section class="project-details">
       <div class="main-container">
         <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
+          <div class="project-details__showcase-img-cont reveal">
             <img
               src="./assets/png/oas.png"
-              alt="Project Image"
+              alt="Online Admission System Image"
               class="project-details__showcase-img"
             />
           </div>
-          <div class="project-details__content-main">
+          <div class="project-details__content-main reveal">
             <div class="project-details__desc">
-              
+              <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
                 The Online Admission System is a web-based application designed to streamline and automate the process of student admissions for educational institutions. This project allows administrators to manage the admission process online, making it easier for both students and administrators to handle the entire process efficiently.
               </p>
-              <p class="project-details__desc-para">
-                <h3 class="project-details__content-title">Features</h3>
-                <ol>
-                  <li>
-                    <p class="project-details__desc-para"><strong>User Registration & Authentication:</strong> <ul>
-                      <li>Students can register and create their profiles.</li>
-                      <li>Secure login and authentication system for students and administrators.</li>
-                    </ul></p>
-                  </li>
-                  <li>
-                    <p class="project-details__desc-para"><strong>Application Submission:</strong>
-                      <ul>
-                        <li>Students can fill out application forms online.</li>
-                        <li>Upload necessary documents directly to the platform.</li>
-                      </ul> 
-                    </p>
-                  </li>
-                  <li>
-                    <p class="project-details__desc-para"><strong>Application Tracking:</strong>
-                      <ul>
-                      <li>Students can track the status of their applications in real time.</li>
-                    </ul> 
-                  </p>
-                  </li>
-                  <li>
-                    <p class="project-details__desc-para"><strong>Admin Dashboard:</strong><ul>
-                      <li>View and manage all submitted applications.</li>
-                      <li>Generate reports and statistics on admissions.</li>
-                    </ul> 
-                    </p>
-                  </li>
-                  <li>
-                    <p class="project-details__desc-para"><strong>Responsive Design:</strong>
-                      <ul>
-                      <li>Fully responsive design ensuring usability across all devices (desktops, tablets, mobile phones).</li>
-                    </ul> 
-                  </p>
-                  </li>
-                </ol>  
-                      
-              </p>
+              
+              <div class="project-details__desc-para">
+                <h3 class="project-details__content-title">Key System Features</h3>
+                <div class="case-study-features-grid">
+                  <div class="feature-card">
+                    <h4>User Authentication Portal</h4>
+                    <p>Secure login gateways and role-based route authorization protocols built dynamically for both student applicants and institutional administrators.</p>
+                  </div>
+                  <div class="feature-card">
+                    <h4>Step-by-Step Forms</h4>
+                    <p>Dynamic admission wizard with step-by-step progress tracking, input field validation, and state persistence.</p>
+                  </div>
+                  <div class="feature-card">
+                    <h4>Real-time Status Tracking</h4>
+                    <p>Integrated dashboard permitting student candidates to track document audits and review process statuses instantly.</p>
+                  </div>
+                  <div class="feature-card">
+                    <h4>Admin Audit Control</h4>
+                    <p>Centralized console authorizing registrar staff to inspect applicant records, validate file attachments, and approve or reject submissions with click actions.</p>
+                  </div>
+                  <div class="feature-card" style="grid-column: span 2;">
+                    <h4>Cross-Platform Responsiveness</h4>
+                    <p>Meticulously styled grid flow, media break queries, and flexible assets guarantee a fluid candidate application flow across mobile, tablet, and desktop viewports.</p>
+                  </div>
+                </div>
+              </div>
             </div>
+            
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
@@ -172,83 +160,74 @@
                 <div class="skills__skill">JQuery</div>
               </div>
             </div>
+
             <div class="project-details__links">
               <h3 class="project-details__content-title">See Project</h3>
-              <a
-                href="http://projects.thevshub.in/oas/"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >Live Link</a
-              >
-              <a
-                href="https://github.com/iamvishveshs/online-admission-system.git"
-                class="btn btn--med btn--theme-inv project-details__links-btn"
-                target="_blank"
-                >Code Link</a
-              >
+              <div class="project-details__links-buttons-group">
+                <a
+                  href="http://projects.thevshub.in/oas/"
+                  class="btn btn--med btn--theme"
+                  target="_blank"
+                  >Live Link</a
+                >
+                <a
+                  href="https://github.com/iamvishveshs/online-admission-system.git"
+                  class="btn btn--med btn--theme-inv"
+                  target="_blank"
+                  >Code Link</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Footer Section -->
     <footer class="main-footer">
       <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/iamvishveshs">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/iamvishveshs">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://x.com/imvishveshs">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <!-- <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a> -->
-              <a target="_blank" rel="noreferrer" href="https://instagram.com/iamvishveshs">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
+        <div class="main-footer__content">
+          <h2 class="main-footer__logo">Vishvesh Shivam</h2>
+          <p class="main-footer__short-desc">
+            Web Developer & AIML Enthusiast | B.Tech Graduate in Computer Science & Engineering (AIML)
+          </p>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/iamvishveshs">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/linkedin-ico.png"
+                alt="LinkedIn"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/iamvishveshs">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/github-ico.png"
+                alt="GitHub"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://x.com/imvishveshs">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/twitter-ico.png"
+                alt="Twitter"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://instagram.com/iamvishveshs">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/insta-ico.png"
+                alt="Instagram"
+              />
+            </a>
           </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Vishvesh Shivam</h4>
-            <p class="main-footer__short-desc">
-              Passionate CSE (AIML) Student & Web Developer | Harnessing Tech for Innovation & Growth
-            </p>
+          <div class="main-footer__lower">
+            &copy; Copyright <span id="copyrightYear"></span>. Developed by <a href="./index.html">Vishvesh Shivam</a>.
           </div>
-        </div>
-
-        <div class="main-footer__lower">
-          &copy; Copyright 2022 - <span id="copyrightYear"></span>. Made by <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a> &nsim; And Updated by <a  target="_blank" href="https://iamvishveshs.github.io/">Vishvesh Shivam</a>.
         </div>
       </div>
     </footer>
+
     <script src="./index.js"></script>
   </body>
 </html>

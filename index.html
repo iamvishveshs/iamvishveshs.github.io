@@ -4,43 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Vishvesh Shivam | Portfolio</title>
-    <meta name="description" content="Portfolio Template for Developer" />
+    <title>Vishvesh Shivam | Software Engineer Portfolio</title>
+    <meta name="description" content="Portfolio of Vishvesh Shivam - Software Engineer & B.Tech Graduate in Computer Science (AIML)" />
 
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
+
+    <!-- Navigation Header -->
     <header class="header">
       <div class="header__content">
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
               src="./assets/png/vishvesh-transparent.png"
-              alt="Vishvesh shivam Logo Image"
+              alt="Vishvesh Shivam Logo"
               class="header__logo-img"
             />
           </div>
           <span class="header__logo-sub">Vishvesh Shivam</span>
         </div>
-        <div class="header__main">
+        <nav class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./" class="header__link"> Home </a>
+              <a href="./" class="header__link header__link--active"> Home </a>
             </li>
             <li class="header__link-wrapper">
               <a href="#about" class="header__link">About </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="#projects" class="header__link">
-                Projects
-              </a>
+              <a href="#projects" class="header__link"> Projects </a>
             </li>
             <li class="header__link-wrapper">
               <a href="#contact" class="header__link"> Contact </a>
@@ -58,7 +55,7 @@
               class="header__main-ham-menu-close d-none"
             />
           </div>
-        </div>
+        </nav>
       </div>
       <div class="header__sm-menu">
         <div class="header__sm-menu-content">
@@ -66,15 +63,12 @@
             <li class="header__sm-menu-link">
               <a href="./index.html"> Home </a>
             </li>
-
             <li class="header__sm-menu-link">
               <a href="./index.html#about"> About </a>
             </li>
-
             <li class="header__sm-menu-link">
               <a href="./index.html#projects"> Projects </a>
             </li>
-
             <li class="header__sm-menu-link">
               <a href="./index.html#contact"> Contact </a>
             </li>
@@ -82,17 +76,59 @@
         </div>
       </div>
     </header>
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is Vishvesh Shivam</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            Passionate CSE (AIML) Student & Web Developer | Harnessing Tech for Innovation & Growth<br>
 
-          </p>
-        </div>
-        <div class="home-hero__cta">
-          <a href="./assets/pdf/Vishvesh_Shivam_Resume_Web.pdf" class="btn btn--bg" download>My Resume</a>
+    <!-- Glowing Grid Background -->
+    <div class="grid-bg"></div>
+    <div class="spotlight"></div>
+
+    <!-- Hero Section -->
+    <section class="home-hero" id="home">
+      <div class="main-container">
+        <div class="home-hero__layout">
+          <div class="home-hero__content">
+            <span class="mono-label">welcome to my portfolio</span>
+            <h1 class="heading-primary">
+              Vishvesh Shivam
+            </h1>
+            <div class="home-hero__info">
+              <p class="text-primary">
+                Software Engineer & Web Developer. B.Tech Graduate in Computer Science and Engineering (AIML). I build clean, high-performance web applications and backend systems that solve complex problems.
+              </p>
+            </div>
+            <div class="home-hero__cta">
+              <a href="#projects" class="btn btn--bg btn--theme">View Projects</a>
+              <a href="./assets/pdf/Vishvesh_Shivam_Resume_Web.pdf" class="btn btn--bg btn--theme-inv" download>My Resume</a>
+            </div>
+          </div>
+          
+          <div class="home-hero__visual reveal">
+            <div class="terminal-card">
+              <div class="terminal-card__header">
+                <div class="terminal-card__buttons">
+                  <span class="terminal-card__btn terminal-card__btn--red"></span>
+                  <span class="terminal-card__btn terminal-card__btn--yellow"></span>
+                  <span class="terminal-card__btn terminal-card__btn--green"></span>
+                </div>
+                <div class="terminal-card__title">vishvesh@terminal: ~</div>
+              </div>
+              <div class="terminal-card__body">
+                <div class="terminal-card__code">
+                  <div class="terminal-line"><span class="line-num">1</span><span class="code-keyword">const</span> developer = {</div>
+                  <div class="terminal-line"><span class="line-num">2</span>  name: <span class="code-string">'Vishvesh Shivam'</span>,</div>
+                  <div class="terminal-line"><span class="line-num">3</span>  role: <span class="code-string">'Software Engineer & Web Dev'</span>,</div>
+                  <div class="terminal-line"><span class="line-num">4</span>  education: <span class="code-string">'B.Tech CSE (AIML)'</span>,</div>
+                  <div class="terminal-line"><span class="line-num">5</span>  skills: [</div>
+                  <div class="terminal-line"><span class="line-num">6</span>    <span class="code-string">'JS'</span>, <span class="code-string">'PHP'</span>, <span class="code-string">'MySQL'</span>, <span class="code-string">'Python'</span>, <span class="code-string">'C'</span></div>
+                  <div class="terminal-line"><span class="line-num">7</span>  ],</div>
+                  <div class="terminal-line"><span class="line-num">8</span>  status: <span class="code-string">"Always learning"</span><span class="cursor-blink">|</span></div>
+                  <div class="terminal-line"><span class="line-num">9</span>};</div>
+                  <div class="terminal-line"><span class="line-num">10</span></div>
+                  <div class="terminal-line"><span class="line-num">11</span><span class="code-comment">// Active status updates...</span></div>
+                  <div class="terminal-line"><span class="line-num">12</span><span class="code-keyword">console</span>.log(developer.status);</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="home-hero__socials">
@@ -100,7 +136,7 @@
           <a href="https://linkedin.com/in/iamvishveshs" class="home-hero__social-icon-link" target="_blank">
             <img
               src="./assets/png/linkedin-ico.png"
-              alt="icon"
+              alt="LinkedIn"
               class="home-hero__social-icon"
             />
           </a>
@@ -109,7 +145,7 @@
           <a href="https://github.com/iamvishveshs" class="home-hero__social-icon-link" target="_blank">
             <img
               src="./assets/png/github-ico.png"
-              alt="icon"
+              alt="GitHub"
               class="home-hero__social-icon"
             />
           </a>
@@ -118,29 +154,16 @@
           <a href="https://x.com/imvishveshs" class="home-hero__social-icon-link" target="_blank">
             <img
               src="./assets/png/twitter-ico.png"
-              alt="icon"
+              alt="Twitter"
               class="home-hero__social-icon"
             />
           </a>
         </div>
-        <!-- <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link" target="_blank">
-            <img
-              src="./assets/png/yt-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div> -->
         <div class="home-hero__social">
-          <a
-            href="https://instagram.com/iamvishveshs"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-            target="_blank"
-          >
+          <a href="https://instagram.com/iamvishveshs" class="home-hero__social-icon-link" target="_blank">
             <img
               src="./assets/png/insta-ico.png"
-              alt="icon"
+              alt="Instagram"
               class="home-hero__social-icon"
             />
           </a>
@@ -150,273 +173,516 @@
         <div class="mouse"></div>
       </div>
     </section>
+
+    <!-- About Section -->
     <section id="about" class="about sec-pad">
       <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
-          <span class="heading-sec__sub">
-            Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
-          </span>
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
+        <div class="heading-sec reveal">
+          <span class="mono-label">// 01. about me</span>
+          <h2 class="heading-sec__main">Get to know me</h2>
+          <p class="heading-sec__sub">
+            Learn more about my background, software engineering journey, and technical skillset.
+          </p>
+        </div>
+        
+        <div class="bento-grid">
+          <!-- Bento Card 1: Biography -->
+          <div class="bento-card bento-card--bio col-span-8 reveal">
+            <h3 class="bento-card__title">Biography</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
-                Hey! It's
-                <strong>Vishvesh Shivam</strong>
-                and I'm a <strong> Web Developer </strong> located in
-                India. I am pursuing
-                <strong> Bachelor of Technology </strong>
-                in <strong>CSE [ AIML ]</strong>.
+                Hi, I'm <strong>Vishvesh Shivam</strong>. I recently graduated with a <strong>Bachelor of Technology</strong> in <strong>CSE [ AIML ]</strong> based in India.
               </p>
               <p class="about__content-details-para">
-                I am a Web Developer with practical experience in building responsive, modern websites and dynamic applications using HTML, CSS, JavaScript, PHP, and MySQL. I enjoy creating clean interfaces, writing structured backend logic, and designing efficient database systems that solve real problems.<br/>
-
-My work includes redesigning the official JNGEC website, developing institutional systems such as an Online Admission System and a Monthly Attendance Tracker, and building custom projects with a focus on clarity, scalability, and user experience. I’m comfortable working independently or collaborating in teams, and I bring a detail-oriented, problem-solving approach to every project.<br/>
-
-I am open to internships, full-time roles, and freelance assignments where I can contribute meaningful solutions, learn continuously, and deliver reliable, high-quality development work.<br/>
-                <strong>contact</strong> me here.
+                I have solid experience in building responsive, modern websites and dynamic applications using HTML, CSS, JavaScript, PHP, and MySQL. I enjoy creating clean interfaces, writing structured backend logic, and designing efficient database systems.
+              </p>
+              <p class="about__content-details-para">
+                My work includes redesigning the official JNGEC website, developing institutional systems such as an Online Admission System and a Monthly Attendance Tracker, and building custom projects with a focus on clarity, scalability, and user experience.
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
+            <a href="#contact" class="btn btn--med btn--theme">Get In Touch</a>
           </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <p class="about__content-title" style="font-size:1.5rem">Technical Skills</p>
-            <div class="skills">
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">PHP</div>
-              <div class="skills__skill">MySQL</div>
+          
+          <!-- Bento Card 2: Personal Stats -->
+          <div class="bento-card bento-card--stats col-span-4 reveal">
+            <div class="stats-widget">
+              <div class="stats-widget__avatar-container">
+                <img
+                  src="./assets/png/vishvesh-transparent.png"
+                  alt="Vishvesh Shivam"
+                  class="stats-widget__avatar"
+                />
+              </div>
+              <h4 class="stats-widget__name">Vishvesh Shivam</h4>
+              <p class="stats-widget__role">Web Developer</p>
+              <div class="stats-widget__info-list">
+                <div class="stats-widget__info-item">
+                  <span class="info-label">Location:</span>
+                  <span class="info-value">India</span>
+                </div>
+                <div class="stats-widget__info-item">
+                  <span class="info-label">Education:</span>
+                  <span class="info-value">B.Tech CSE (AIML)</span>
+                </div>
+                <div class="stats-widget__info-item">
+                  <span class="info-label">Local Time:</span>
+                  <span class="info-value" id="local-time">--:--:--</span>
+                </div>
+              </div>
+              <div class="stats-widget__badge">Open to Opportunities</div>
+            </div>
+          </div>
 
-              <div class="skills__skill">C</div>
-              <div class="skills__skill">Python</div>
-              <div class="skills__skill">JQuery</div>
-              <div class="skills__skill">AJAX</div>
+          <!-- Bento Card 3: Experience -->
+          <div class="bento-card bento-card--experience col-span-7 reveal">
+            <h3 class="bento-card__title">Experience & Contributions</h3>
+            <div class="experience-timeline">
+              <div class="experience-block">
+                <div class="experience-block__meta">
+                  <span class="experience-block__badge">// volunteer work</span>
+                  <span class="experience-block__date">Sep 2023 – May 2026</span>
+                </div>
+                <h4 class="experience-block__title">JNGEC Website Redesign</h4>
+                <p class="experience-block__org">Jawaharlal Nehru Government Engineering College</p>
+                
+                <div class="experience-block__tech-stack">
+                  <span class="tech-badge tech-badge--sm">HTML5</span>
+                  <span class="tech-badge tech-badge--sm">CSS3</span>
+                  <span class="tech-badge tech-badge--sm">JavaScript</span>
+                  <span class="tech-badge tech-badge--sm">PHP</span>
+                  <span class="tech-badge tech-badge--sm">MySQL</span>
+                </div>
+
+                <ul class="experience-block__bullets">
+                  <li>
+                    <span class="bullet-marker">✦</span>
+                    <span>Redesigned the official JNGEC college website as the **sole developer** to improve site performance, responsiveness, and speed.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-marker">✦</span>
+                    <span>Developed custom PHP administrative panels for smooth college notice and event updates.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-marker">✦</span>
+                    <span>Awarded a college <strong>Certificate of Appreciation</strong> for successful site deployment.</span>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <p class="about__content-title" style="font-size:1.5rem;margin-top:1.5rem">Frameworks</p>
-            <div class="skills">
-              <div class="skills__skill">Bootstrap</div>
-              <div class="skills__skill">Tailwind</div>
+          </div>
+
+          <!-- Bento Card 4: Certifications -->
+          <div class="bento-card bento-card--certifications col-span-5 reveal">
+            <h3 class="bento-card__title">Credentials</h3>
+            <div class="certifications-grid-bento">
+              <!-- Python -->
+              <div class="cert-card-premium">
+                <div class="cert-card-premium__header">
+                  <div class="cert-icon-container">
+                    <span class="cert-icon">py</span>
+                  </div>
+                  <div class="cert-title-block">
+                    <h4 class="cert-title">Python Programming</h4>
+                    <p class="cert-issuer">Excellence Technology</p>
+                  </div>
+                </div>
+                <div class="cert-card-premium__footer">
+                  <span class="cert-id">Extech/1308/HM830</span>
+                  <span class="cert-status-badge cert-status-badge--verified">
+                    <span class="dot"></span> Verified
+                  </span>
+                </div>
+              </div>
+
+              <!-- PHP -->
+              <div class="cert-card-premium">
+                <div class="cert-card-premium__header">
+                  <div class="cert-icon-container">
+                    <span class="cert-icon">php</span>
+                  </div>
+                  <div class="cert-title-block">
+                    <h4 class="cert-title">Industrial PHP Training</h4>
+                    <p class="cert-issuer">ThinkNEXT Technologies</p>
+                  </div>
+                </div>
+                <div class="cert-card-premium__footer">
+                  <span class="cert-id">ID: 336180</span>
+                  <span class="cert-status-badge cert-status-badge--verified">
+                    <span class="dot"></span> Verified
+                  </span>
+                </div>
+              </div>
             </div>
-            <p class="about__content-title" style="font-size:1.5rem;margin-top:1.5rem">Tools</p>
-            <div class="skills">
-              <div class="skills__skill">VsCode</div>
-              <div class="skills__skill">PHPMyAdmin</div>
-              <div class="skills__skill">XAMPP</div>
-              <div class="skills__skill">Github</div>
+          </div>
+
+          <!-- Bento Card 5: Skills -->
+          <div class="bento-card bento-card--skills col-span-12 reveal">
+            <h3 class="bento-card__title">Core Technical Capabilities</h3>
+            <div class="skills-bento-layout">
+              <div class="skills-category">
+                <h4 class="skills-category-title">Languages & Databases</h4>
+                <div class="skills">
+                  <div class="skills__skill">HTML</div>
+                  <div class="skills__skill">CSS</div>
+                  <div class="skills__skill">JavaScript</div>
+                  <div class="skills__skill">PHP</div>
+                  <div class="skills__skill">MySQL</div>
+                  <div class="skills__skill">MongoDB</div>
+                  <div class="skills__skill">Redis</div>
+                  <div class="skills__skill">Python</div>
+                  <div class="skills__skill">C</div>
+                  <div class="skills__skill">JQuery</div>
+                  <div class="skills__skill">AJAX</div>
+                </div>
+              </div>
+              
+              <div class="skills-category">
+                <h4 class="skills-category-title">Frameworks & Technologies</h4>
+                <div class="skills">
+                  <div class="skills__skill">React</div>
+                  <div class="skills__skill">Node.js</div>
+                  <div class="skills__skill">Express</div>
+                  <div class="skills__skill">Socket.io</div>
+                  <div class="skills__skill">Bootstrap</div>
+                  <div class="skills__skill">Tailwind</div>
+                </div>
+              </div>
+              
+              <div class="skills-category">
+                <h4 class="skills-category-title">Tools & Platforms</h4>
+                <div class="skills">
+                  <div class="skills__skill">Git</div>
+                  <div class="skills__skill">Github</div>
+                  <div class="skills__skill">VsCode</div>
+                  <div class="skills__skill">PHPMyAdmin</div>
+                  <div class="skills__skill">XAMPP</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Projects Section -->
     <section id="projects" class="projects sec-pad">
       <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub">
-            Here you will find some of the personal projects that I created with each project containing its own View More
-          </span>
-        </h2>
+        <div class="heading-sec reveal">
+          <span class="mono-label">// 02. work</span>
+          <h2 class="heading-sec__main">Featured Projects</h2>
+          <p class="heading-sec__sub">
+            A selection of production-grade systems and personal projects I have built, complete with detailed case study documentation.
+          </p>
+        </div>
 
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
+        <div class="projects-grid">
+          <!-- Project 1: VerSyncs -->
+          <div class="project-card reveal">
+            <div class="project-card__img-cont">
+              <img
+                src="./assets/png/versyncs-cover.png"
+                alt="VerSyncs Showcase"
+                class="project-card__img"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card__content">
+              <h3 class="project-card__title">VerSyncs - Collaborative Workspace</h3>
+              <p class="project-card__desc">
+                A real-time collaborative workspace tailored for creative teams to sync and build seamlessly. Implemented with MERN stack, WebSockets, and Redis.
+              </p>
+              <div class="project-card__tech">
+                <span class="tech-badge">MongoDB</span>
+                <span class="tech-badge">Express</span>
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Redis</span>
+                <span class="tech-badge">Socket.io</span>
+              </div>
+              <a
+                href="https://versyncs.thevshub.in"
+                class="btn btn--med btn--theme-inv project-card__cta"
+                target="_blank"
+                >Visit Website</a
+              >
+            </div>
+          </div>
+
+          <!-- Project 2: Griham -->
+          <div class="project-card reveal">
+            <div class="project-card__img-cont">
               <img
                 src="./assets/png/griham-cover.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
+                alt="Griham Showcase"
+                class="project-card__img"
                 loading="lazy"
               />
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Griham - Find Your Perfect Stay</h3>
-              <p class="projects__row-content-desc">
-                Griham simplifies your search for accommodation and essential services. From accomodation listings to food , Gym and laundry, everything is a call away — designed for students and professionals.
+            <div class="project-card__content">
+              <h3 class="project-card__title">Griham - Find Your Perfect Stay</h3>
+              <p class="project-card__desc">
+                Simplifies the search for accommodation, roommate matching, gym discovery, and laundry. Designed for students and professionals.
               </p>
+              <div class="project-card__tech">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JS</span>
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">MySQL</span>
+              </div>
               <a
                 href="./griham.html"
-                class="btn btn--med btn--theme dynamicBgClr"
+                class="btn btn--med btn--theme-inv project-card__cta"
                 target="_blank"
-                >View More</a
+                >View Case Study</a
               >
             </div>
           </div>
 
-        </div>
-
-
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
+          <!-- Project 3: Attendance Tracker -->
+          <div class="project-card reveal">
+            <div class="project-card__img-cont">
               <img
                 src="./assets/jpeg/monthly attendance tracker.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
+                alt="Monthly Attendance Tracker Showcase"
+                class="project-card__img"
                 loading="lazy"
               />
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Monthly attendance tracker</h3>
-              <p class="projects__row-content-desc">
-                This project is developed for polytechnic colleges to track the attendance of students monthly.
+            <div class="project-card__content">
+              <h3 class="project-card__title">Attendance Tracker</h3>
+              <p class="project-card__desc">
+                An attendance management system designed for polytechnic colleges to track, monitor, and highlight candidate attendance monthly.
               </p>
+              <div class="project-card__tech">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JS</span>
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">MySQL</span>
+              </div>
               <a
                 href="./monthly-attendance-tracker.html"
-                class="btn btn--med btn--theme dynamicBgClr"
+                class="btn btn--med btn--theme-inv project-card__cta"
                 target="_blank"
-                >View More</a
+                >View Case Study</a
               >
             </div>
           </div>
 
-        </div>
-
-
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
+          <!-- Project 4: OAS -->
+          <div class="project-card reveal">
+            <div class="project-card__img-cont">
               <img
                 src="./assets/png/oas.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
+                alt="Online Admission System Showcase"
+                class="project-card__img"
                 loading="lazy"
               />
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Online Admission System</h3>
-              <p class="projects__row-content-desc">
-                This project is developed for polytechnic colleges for hassle-free admission process and document organisation.
+            <div class="project-card__content">
+              <h3 class="project-card__title">Online Admission System</h3>
+              <p class="project-card__desc">
+                A custom admission management application developed for polytechnic colleges to process applications and validate applicant files.
               </p>
+              <div class="project-card__tech">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JS</span>
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">MySQL</span>
+              </div>
               <a
                 href="./online-admission-system.html"
-                class="btn btn--med btn--theme dynamicBgClr"
+                class="btn btn--med btn--theme-inv project-card__cta"
                 target="_blank"
-                >View More</a
+                >View Case Study</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live Websites & Tools Section -->
+    <section id="live-websites" class="live-websites sec-pad">
+      <div class="main-container">
+        <div class="heading-sec reveal">
+          <span class="mono-label">// 03. live systems</span>
+          <h2 class="heading-sec__main">Live Projects & Websites</h2>
+          <p class="heading-sec__sub">
+            A showcase of web applications, platforms, and templates that I actively manage, build, and maintain online.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Website 1: WishKaro App -->
+          <div class="project-card reveal">
+            <div class="project-card__content">
+              <h3 class="project-card__title">WishKaro App</h3>
+              <p class="project-card__desc">
+                A dedicated application that makes festival wishing, customized greeting generation, and shareable greeting cards easy.
+              </p>
+              <div class="project-card__tech">
+                <span class="tech-badge">Greeting Tool</span>
+                <span class="tech-badge">Frontend App</span>
+                <span class="tech-badge">Creative</span>
+              </div>
+              <a
+                href="https://wishkaro.thevshub.in"
+                class="btn btn--med btn--theme-inv project-card__cta"
+                target="_blank"
+                >Visit App</a
               >
             </div>
           </div>
 
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            <p>Feel free to <strong>contact</strong> me here.</p><br>
-
-          </span>
-        </h2>
-       <div class="contact__form-container">
-          <form action="https://formsubmit.co/iamvishveshs@gmail.com" method="POST" class="contact__form">
-
-  <input type="hidden" name="_captcha" value="false">
-
-  <input type="hidden" name="_subject" value="New Submission from Portfolio Website!">
-  <input type="hidden" name="_next" value="https://iamvishveshs.github.io/success.html">
-
-  <div class="contact__form-field">
-    <label class="contact__form-label" for="name">Name</label>
-    <input
-      required
-      placeholder="Enter Your Name"
-      type="text"
-      class="contact__form-input"
-      name="name"
-      id="name"
-    />
-  </div>
-  <div class="contact__form-field">
-    <label class="contact__form-label" for="email">Email</label>
-    <input
-      required
-      placeholder="Enter Your Email"
-      type="email"
-      class="contact__form-input"
-      name="email"
-      id="email"
-    />
-  </div>
-  <div class="contact__form-field">
-    <label class="contact__form-label" for="message">Message</label>
-    <textarea
-      required
-      cols="30"
-      rows="10"
-      class="contact__form-input"
-      placeholder="Enter Your Message"
-      name="message"
-      id="message"
-    ></textarea>
-  </div>
-  <button type="submit" class="btn btn--theme contact__btn">
-    Submit
-  </button>
-</form>
-        </div>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/iamvishveshs">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/iamvishveshs">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://x.com/imvishveshs">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <!-- <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a> -->
-              <a target="_blank" rel="noreferrer" href="https://instagram.com/iamvishveshs">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
+          <!-- Website 2: ThevsHub Templates -->
+          <div class="project-card reveal">
+            <div class="project-card__content">
+              <h3 class="project-card__title">ThevsHub Templates</h3>
+              <p class="project-card__desc">
+                A repository of high-quality website templates, styles, and boilerplate kits for freelance developers.
+              </p>
+              <div class="project-card__tech">
+                <span class="tech-badge">Templates</span>
+                <span class="tech-badge">UI Library</span>
+                <span class="tech-badge">Boilerplates</span>
+              </div>
+              <a
+                href="https://templates.thevshub.in"
+                class="btn btn--med btn--theme-inv project-card__cta"
+                target="_blank"
+                >View Templates</a
+              >
             </div>
           </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Vishvesh Shivam</h4>
-            <p class="main-footer__short-desc">
-              Passionate CSE (AIML) Student & Web Developer | Harnessing Tech for Innovation & Growth
-            </p>
+
+          <!-- Website 3: Personal Blog - thevshub.in -->
+          <div class="project-card reveal">
+            
+            <div class="project-card__content">
+              <h3 class="project-card__title">TheVSHub.in (Blog)</h3>
+              <p class="project-card__desc">
+                Personal blog featuring tech tutorials, programming guidelines, software recommendations, and development insights.
+              </p>
+              <div class="project-card__tech">
+                <span class="tech-badge">Blog</span>
+                <span class="tech-badge">Tech News</span>
+                <span class="tech-badge">Tutorials</span>
+              </div>
+              <a
+                href="https://thevshub.in"
+                class="btn btn--med btn--theme-inv project-card__cta"
+                target="_blank"
+                >Visit Blog</a
+              >
+            </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="main-footer__lower">
-          &copy; Copyright 2022 - <span id="copyrightYear"></span>. Made by <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a> &nsim; And Updated by <a  target="_blank" href="https://iamvishveshs.github.io/">Vishvesh Shivam</a>.
+    <!-- Contact Section -->
+    <section id="contact" class="contact sec-pad">
+      <div class="main-container">
+        <div class="heading-sec reveal">
+          <span class="mono-label">// 04. contact</span>
+          <h2 class="heading-sec__main">Get in touch</h2>
+          <p class="heading-sec__sub">
+            Submit the form below or reach out via email. I will respond to your inquiry as soon as possible.
+          </p>
+        </div>
+        
+        <div class="contact__form-container reveal">
+          <form action="https://formsubmit.co/iamvishveshs@gmail.com" method="POST" class="contact__form">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New Submission from Portfolio Website!">
+            <input type="hidden" name="_next" value="https://iamvishveshs.github.io/success.html">
+ 
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email Address</label>
+              <input
+                required
+                placeholder="Enter Your Email Address"
+                type="email"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="6"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__content">
+          <h2 class="main-footer__logo">Vishvesh Shivam</h2>
+          <p class="main-footer__short-desc">
+            Web Developer & AIML Enthusiast | B.Tech Graduate in Computer Science & Engineering (AIML)
+          </p>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/iamvishveshs">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/linkedin-ico.png"
+                alt="LinkedIn"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/iamvishveshs">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/github-ico.png"
+                alt="GitHub"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://x.com/imvishveshs">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/twitter-ico.png"
+                alt="Twitter"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://instagram.com/iamvishveshs">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/insta-ico.png"
+                alt="Instagram"
+              />
+            </a>
+          </div>
+          <div class="main-footer__lower">
+            &copy; Copyright <span id="copyrightYear"></span>. Developed by <a href="#home">Vishvesh Shivam</a>.
+          </div>
         </div>
       </div>
     </footer>

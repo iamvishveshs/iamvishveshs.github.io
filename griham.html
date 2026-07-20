@@ -4,32 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Griham</title>
-    <meta name="description" content="Case study page of Project" />
+    <title>Case Study of Griham | Vishvesh Shivam</title>
+    <meta name="description" content="Case study page of Griham - Relocation System" />
 
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
+
+    <!-- Navigation Header -->
     <header class="header">
       <div class="header__content">
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
               src="./assets/png/vishvesh-transparent.png"
-              alt="Vishvesh shivam Logo Image"
+              alt="Vishvesh Shivam Logo"
               class="header__logo-img"
             />
           </div>
           <span class="header__logo-sub">Vishvesh Shivam</span>
         </div>
-        <div class="header__main">
+        <nav class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
               <a href="./index.html" class="header__link"> Home </a>
@@ -38,9 +37,7 @@
               <a href="./index.html#about" class="header__link">About </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
+              <a href="./index.html#projects" class="header__link header__link--active"> Projects </a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#contact" class="header__link"> Contact </a>
@@ -58,7 +55,7 @@
               class="header__main-ham-menu-close d-none"
             />
           </div>
-        </div>
+        </nav>
       </div>
       <div class="header__sm-menu">
         <div class="header__sm-menu-content">
@@ -66,15 +63,12 @@
             <li class="header__sm-menu-link">
               <a href="./index.html"> Home </a>
             </li>
-
             <li class="header__sm-menu-link">
               <a href="./index.html#about"> About </a>
             </li>
-
             <li class="header__sm-menu-link">
               <a href="./index.html#projects"> Projects </a>
             </li>
-
             <li class="header__sm-menu-link">
               <a href="./index.html#contact"> Contact </a>
             </li>
@@ -82,172 +76,158 @@
         </div>
       </div>
     </header>
+
+    <!-- Glowing Grid Background -->
+    <div class="grid-bg"></div>
+    <div class="spotlight"></div>
+
+    <!-- Case Study Hero -->
     <section class="project-cs-hero">
-  <div class="project-cs-hero__content">
-    <h1 class="heading-primary">Griham</h1>
-    <div class="project-cs-hero__info">
-      <p class="text-primary">
-        This page contains the case study of
-        <strong>Griham - Relocation System</strong>, which includes
-        the Project Overview, Tools Used and Live Links to the official
-        product.
-      </p>
-    </div>
-    <div class="project-cs-hero__cta">
-      <a
-        href="https://github.com/iamvishveshs/Griham"
-        class="btn btn--bg"
-        target="_blank"
-        >Project Files</a
-      >
-    </div>
-  </div>
-</section>
-<section class="project-details">
-  <div class="main-container">
-    <div class="project-details__content">
-      <div class="project-details__showcase-img-cont">
-        <img
-          src="./assets/png/griham-cover.png"
-          alt="Griham Project Image"
-          class="project-details__showcase-img"
-        />
-      </div>
-      <div class="project-details__content-main">
-        <div class="project-details__desc">
-          <p class="project-details__desc-para">
-            Griham simplifies your search for accommodation and essential services. From accomodation listings to food , Gym and laundry, everything is a call away — designed for students and professionals.
-          </p>
-          <div class="project-details__desc-para">
-            <h3 class="project-details__content-title">Features</h3>
-            <ol>
-              <li>
-                <p class="project-details__desc-para">
-                  <strong>Effortless Room Finder:</strong><br>
-                  Verified flats, PGs, and shared homes<br>
-Smart filters: location, room type<br>
-One-click call button for instant contact
-                </p>
-              </li>
-              <li>
-                <p class="project-details__desc-para">
-                  <strong>Roommate Matching System:</strong><br>
-Filter profiles by gender, lifestyle, and habits<br>
-Criteria: smoking, drinking, pets, food preferences, etc.
-                </p>
-              </li>
-              <li>
-                <p class="project-details__desc-para">
-                  <strong>Advanced Search & Filters:</strong>
-                  Functionality to sort and filter properties based on:
-                </p>
-                <ul>
-                  <li><p class="project-details__desc-para"><strong>Type:</strong> Apartment, House, PG, Hostel.</p></li>
-                  <li><p class="project-details__desc-para"><strong>Status:</strong> For Rent.</p></li>
-                  <li><p class="project-details__desc-para"><strong>Budget:</strong> Price range filtering.</p></li>
-                </ul>
-              </li>
-              <li>
-                <p class="project-details__desc-para">
-                  <strong>Admin Dashboard:</strong> A dedicated control panel for administrators to approve listings, manage users, and oversee platform activity.
-                </p>
-              </li>
-              <li>
-                <p class="project-details__desc-para">
-                  <strong>Gmail Email Integration (PHPMailer): </strong> Registration confirmation emails, Password reset via secure Gmail SMTP using app password
-                </p>
-              </li>
-            </ol>
-          </div>
-        </div>
-        <div class="project-details__tools-used">
-          <h3 class="project-details__content-title">Tools Used</h3>
-          <div class="skills">
-            <div class="skills__skill">HTML</div>
-            <div class="skills__skill">CSS</div>
-            <div class="skills__skill">JavaScript</div>
-            <div class="skills__skill">PHP</div>
-            <div class="skills__skill">MySQL</div>
-            <div class="skills__skill">Bootstrap</div>
-          </div>
-        </div>
-        <div class="project-details__links">
-          <h3 class="project-details__content-title">See Project</h3>
-          <a
-            href="http://griham.thevshub.in"
-            class="btn btn--med btn--theme project-details__links-btn"
-            target="_blank"
-            >Live Link</a
-          >
-          <a
-            href="https://github.com/iamvishveshs/Griham"
-            class="btn btn--med btn--theme-inv project-details__links-btn"
-            target="_blank"
-            >Code Link</a
-          >
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-    <footer class="main-footer">
       <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/iamvishveshs">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/iamvishveshs">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://x.com/imvishveshs">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <!-- <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a> -->
-              <a target="_blank" rel="noreferrer" href="https://instagram.com/iamvishveshs">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Vishvesh Shivam</h4>
-            <p class="main-footer__short-desc">
-              Passionate CSE (AIML) Student & Web Developer | Harnessing Tech for Innovation & Growth
+        <div class="project-cs-hero__content">
+          <span class="mono-label">// case study</span>
+          <h1 class="heading-primary">Griham - Relocation System</h1>
+          <div class="project-cs-hero__info">
+            <p class="text-primary">
+              Griham simplifies your search for accommodation and essential services. From accommodation listings to roommate matching, gym discovery, and laundry, everything is a call away — designed for students and professionals.
             </p>
           </div>
+          <div class="project-cs-hero__cta">
+            <a
+              href="https://github.com/iamvishveshs/Griham"
+              class="btn btn--bg btn--theme-inv"
+              target="_blank"
+              >Project Codebase</a
+            >
+          </div>
         </div>
+      </div>
+    </section>
 
-        <div class="main-footer__lower">
-          &copy; Copyright 2022 - <span id="copyrightYear"></span>. Made by <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a> &nsim; And Updated by <a  target="_blank" href="https://iamvishveshs.github.io/">Vishvesh Shivam</a>.
+    <!-- Case Study Details -->
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont reveal">
+            <img
+              src="./assets/png/griham-cover.png"
+              alt="Griham Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main reveal">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Griham simplifies your search for accommodation and essential services. From accommodation listings to food, Gym and laundry, everything is a call away — designed for students and professionals.
+              </p>
+              
+              <div class="project-details__desc-para">
+                <h3 class="project-details__content-title">Key System Features</h3>
+                <div class="case-study-features-grid">
+                  <div class="feature-card">
+                    <h4>Effortless Room Finder</h4>
+                    <p>Verified flats, PGs, and shared homes. Smart filters for location, budget, and room type with one-click call buttons for instant contact.</p>
+                  </div>
+                  <div class="feature-card">
+                    <h4>Roommate Matching</h4>
+                    <p>Advanced profile filtering by gender, lifestyle traits, and personal habits (smoking, drinking, pets, and dietary preferences).</p>
+                  </div>
+                  <div class="feature-card">
+                    <h4>Advanced Search & Filters</h4>
+                    <p>Dynamic query sorting to filter properties based on specific criteria like Type (PG, Hostel, Flat), Status, and custom price ranges.</p>
+                  </div>
+                  <div class="feature-card">
+                    <h4>Admin Control Panel</h4>
+                    <p>Dedicated back-office panel allowing staff to approve listings, manage active platform users, and review platform engagement.</p>
+                  </div>
+                  <div class="feature-card" style="grid-column: span 2;">
+                    <h4>Secure Email Integration</h4>
+                    <p>Automated transactional messages including registration confirmations and secure password resets driven by PHPMailer via Google SMTP with app passwords.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">PHP</div>
+                <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">Bootstrap</div>
+              </div>
+            </div>
+
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Project</h3>
+              <div class="project-details__links-buttons-group">
+                <a
+                  href="http://griham.thevshub.in"
+                  class="btn btn--med btn--theme"
+                  target="_blank"
+                  >Live Link</a
+                >
+                <a
+                  href="https://github.com/iamvishveshs/Griham"
+                  class="btn btn--med btn--theme-inv"
+                  target="_blank"
+                  >Code Link</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__content">
+          <h2 class="main-footer__logo">Vishvesh Shivam</h2>
+          <p class="main-footer__short-desc">
+            Web Developer & AIML Enthusiast | B.Tech Graduate in Computer Science & Engineering (AIML)
+          </p>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/iamvishveshs">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/linkedin-ico.png"
+                alt="LinkedIn"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/iamvishveshs">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/github-ico.png"
+                alt="GitHub"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://x.com/imvishveshs">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/twitter-ico.png"
+                alt="Twitter"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://instagram.com/iamvishveshs">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/insta-ico.png"
+                alt="Instagram"
+              />
+            </a>
+          </div>
+          <div class="main-footer__lower">
+            &copy; Copyright <span id="copyrightYear"></span>. Developed by <a href="./index.html">Vishvesh Shivam</a>.
+          </div>
         </div>
       </div>
     </footer>
+
     <script src="./index.js"></script>
   </body>
 </html>
